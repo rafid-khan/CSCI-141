@@ -1,2 +1,0 @@
-# simple mobile: 300 ounce ball on a 50 inch cord
-B1 50 300
