@@ -1,0 +1,41 @@
+Rafid Khan
+CSCI 141
+Professor Polak
+
+
+1. The pivot is necessary because it determines the midpoint
+of the list which is essential in finding what the median is.
+I believe that if the first item had been selected as the pivot
+each time, the algorithm would have behaved much differently. The
+smaller / larger lists would be much different had the pivot been a
+different value. This would've changed up the whole function.
+
+2. In order to truly see the versatility of quicksort there should
+be a variety of values for k, with varying sets and indexes.Below are some
+described test cases:
+
+quickselect([4, 9, 2, 10, 5] , 1) -> 2
+quickselect([10, 80, 30, 90, 40, 50], 3) -> 40
+quickselect([234, 324, 195, 923, 32, 554, 998], 2) -> 195
+quickselect([94, 47, 38, 58, 123, 736, 1234, 134, 56623, 152, 14, 54] , 5)  -> 58
+
+
+3. When running the larger data sets, the program utilizing insertion
+sort runs significantly slower when compared to the program with
+quicksort. This is exhibited in the test runs below:
+
+10K SET ELAPSED TIME (s):
+Insertion_Sort: 7.343860149383545
+Quicksort: 0.01699209213256836
+
+25K SET ELAPSED TIME (s):
+Insertion_Sort: 48.85983085632324
+Quicksort: 0.03400230407714844
+
+50K SET ELAPSED TIME (s):
+Insertion_Sort: 217.4230830669403
+Quicksort: 0.03578495979309082
+
+100k SET ELAPSED TIME (s):
+Insertion_Sort: 977.9785060882568
+Quicksort: 0.07907414436340332
