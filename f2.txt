@@ -1,4 +1,0 @@
-# simple mobile file with extra parts
-R1 B1 30 20 30 B2
-B1 100 30
-B2 100 30
